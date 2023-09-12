@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập A"
+        android:textColor="#1C6E6E"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtA"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@drawable/custom_edit_text"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập B"
+        android:textColor="#1C6E6E"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_edit_text"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#812929"
+        android:backgroundTint="#F7FBFB"
+        android:textColor="#1C6E6E"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textColor="#1C6E6E"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_KetQua"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@drawable/custom_edit_text"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:backgroundTint="@null" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            app:backgroundTint = "@null"
+            android:text="Undo" />
+
+        <Button
+            android:id="@+id/btn_Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reset"
+            android:background="@drawable/custom_button"
+              app:backgroundTint = "@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Cong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Cộng"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_Tru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Trừ"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_Nhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Nhân"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_Chia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="Chia"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    /
+
+</LinearLayout>
